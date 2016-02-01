@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+.pht_right_ul {
+	padding-left: 25px;
+	padding-right: 5px;
+	list-style-image: url("ist-img-2.png");
+	background-color: transparent;
+}
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="col-sm-12">
+<div class="col-sm-3">
+		<ul class="nav nav-pills nav-stacked pht_font pht_mid_ul pht_right_ul">
+								<li>Đoàn lãnh đạo tỉnh thăm, tặng quà tết tại huyện Dầu Tiếng và Bắc Tân Uyên</li>
+								<li>Lịch làm việc tuần 03 (từ ngày: 18/01/2016 đến ngày: 22/01/2016)</li>
+								<li>Xuân với trẻ em khó khăn tỉnh Bình Dương lần thứ IX - năm 2016</li>
+								<li>Các văn bản hướng dẫn về công tác Đảng</li>
+								<li>KẾ HOẠCH Tiếp tục thực hiện Chỉ thị 03-CT/TW gắn với việc thực hiện nhiệm vụ chính trị năm 2016</li>
+								<li>Đảng bộ Sở Lao động – Thương binh và xã hội tổ chức Hội nghị triển khai, học tập các văn kiện Hội nghị lần thứ 13 Ban chấp hành Trung ương Đảng (Khoá XI)</li>
+								<li>Quyết định số 70 /QĐ-SLĐTBXH Ban hành Quy trình sử dụng chứng thư số của Sở Lao động – Thương binh và Xã hội tỉnh Bình Dương</li>
+							</ul>
+<div class="col-sm-9">
+</div>
+</div>
+</div>
+</body>
+</html>
+
