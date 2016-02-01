@@ -1,0 +1,36 @@
+.phuoc_remove_border {
+	border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.phuoc_position {
+	float: right;
+    padding-right: 5px;
+    
+}
+
+.phuoc_position li a {
+    background: blue;
+    color: white;
+}
+
+.phuoc_position li a:hover {
+    background: orangered;
+    color: white;
+}
+
+.phuoc_border_all {
+	border: solid 1px #c7c7c7!important;   
+}
+
+.phuoc_active {
+    background: orangered!important;
+}
+
+.pagetext {
+    display: table;
+    padding-top: 28px;
+    padding-right: 10px;
+    float: left;
+}
+
