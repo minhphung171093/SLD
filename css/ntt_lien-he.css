@@ -1,0 +1,26 @@
+h3 {
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 6px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #0088bf;
+}
+input.cinput {
+  width: 290px;
+}
+input[type="text"], input[type="password"] {
+  height: 26px;
+}
+input[type="text"], input[type="password"], select, textarea {
+  padding: 3px 8px;
+  margin: 2px;
+  border: 1px solid #999;
+  line-height: 24px;
+  background: #fff;
+  color: #737373;
+}
+textarea.cinput {
+  width: 290px;
+  height: 150px;
+}
