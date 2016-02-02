@@ -7,6 +7,7 @@
 <meta name="description" content="" />
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap_index_style.css" type="text/css"/>
+<link rel="stylesheet" href="css/ntt_lien-he.css" type="text/css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
@@ -107,7 +108,87 @@
 			<div class="col-sm-6">
 				<div class="col-sm-12 pht_mid_margin pht_padding pht_mar_bottom">
 					<div class="col-sm-12 pht_title"><h4>TITLE</h4></div>
-					<div class="col-sm-12 pht_content_bg"><p class="pht_mid_p pht_nborder_bottom">(BDO) Chiều 16-1, Đoàn lãnh đạo tỉnh do ông Nguyễn Hữu Từ, Phó Bí thư Tỉnh ủy làm trưởng đoàn đã đến thăm, tặng quà tết cho gia đình chính sách, hộ nghèo, trẻ em có hoàn cảnh đặc biệt khó khăn trên địa bàn xã Long Hòa, huyện Dầu Tiếng.</p></div>
+					<div class="col-sm-12 pht_content_bg">
+                    <table style="width: 100%;">
+            <tbody><tr>
+                <td>Danh mục</td>
+                <td colspan="3">
+                    <select id="cbxDanhMuc">
+                        <option value="">--Tất cả--</option>
+                        
+                        <option value="10"> Văn bản pháp luật</option>
+                        
+                        <option value="113"> Lao động - việc làm</option>
+                        
+                        <option value="114"> Dạy nghề</option>
+                        
+                        <option value="115"> Chính sách có công</option>
+                        
+                        <option value="116"> Bảo trợ xã hội</option>
+                        
+                        <option value="117"> Phòng, Chống tệ nạn xã hội</option>
+                        
+                        <option value="119"> Bảo hiểm xã hội</option>
+                        
+                        <option value="148"> Tiền Lương</option>
+                        
+                        <option value="151"> An toàn vệ sinh lao động</option>
+                        
+                        <option value="166"> Văn bản khác</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Trích yếu</td>
+                <td colspan="3">
+                    <input id="txtTrichYeu"></td>
+            </tr>
+            <tr>
+                <td>
+                    Số văn bản:
+                </td>
+                <td>
+                    <input id="soVanBan">
+                </td>
+                 <td>
+                    Kí hiệu:
+                </td>
+                <td>
+                    <input id="txtKyHieu">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Tình trạng:</td>
+                <td>
+                    <select id="cbxTinhTrang">
+                        <option value=""> --Tất cả--</option>
+                        <option value="lay-y-kien"> Lấy ý kiến</option>
+                        <option value="het-han-lay-y-kien"> Hết hạn lấy ý kiến</option>
+                        <option value="con-hieu-luc"> Còn hiệu lực</option>
+                        <option value="chua-hieu-luc"> Chưa hiệu lực</option>
+                        <option value="het-hieu-luc"> Hết hiệu lực</option>
+                    </select>
+                </td>
+                <td>Cơ quan:</td>
+                <td><input id="txtCoQuan"></td>
+            </tr>
+            <tr>
+                <td>Từ ngày:</td>
+                <td><input id="txtFromDate" class="hasDatepicker"></td>
+                <td>Đến ngày:</td>
+                <td><input id="toDate" class="hasDatepicker"></td>
+            </tr>
+            <tr>
+                <td colspan="4" align="right">
+                    <a href="#" id="btnSearch" class="btn btn-primary search"> Tìm kiếm </a>
+                </td>
+            </tr>
+        </tbody></table>
+                        
+                        
+                    </div>
 				</div>
 			</div>	
 			<div class="col-sm-3">
