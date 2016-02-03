@@ -88,6 +88,18 @@
 	border-left: solid 1px #c7c7c7!important;
 }
 
+.ptp_border_color {
+    background-color: #ffffff!important;
+	border: solid 2px #8899dd!important;
+    padding-top: 5px!important;
+}
+
+.ptp_content_bg {
+    padding-bottom:10px!important;
+    padding-left:1px!important;
+    padding-right:1px!important;
+}
+
 .pht_content_bg li {
 	background-color: #ffffff;
 	border-bottom: solid 1px #c7c7c7!important;
@@ -378,7 +390,8 @@ li a.active {
 }
 .oh input[type="text"], .oh input[type="password"], .oh select, .oh textarea {
   padding: 3px 8px;
-  margin: 2px;
+  /*margin: 2px;*/
+  margin-bottom: 3px;
   border: 1px solid #999;
   line-height: 24px;
   background: #fff;
@@ -387,6 +400,14 @@ li a.active {
 .oh textarea.cinput {
   width: 290px;
   height: 150px;
+}
+.oh td {
+  padding-right: 2.5px;
+}
+.oh .button {
+    background: #337ab7;
+    border: 1px solid #337ab7;
+    color: white;
 }
 /* ---- */
 
